@@ -91,8 +91,25 @@ Workstream: [name]. Outcome: [what "done" looks like].
 
 ## Install
 
-- **Claude (claude.ai / desktop):** upload each `skills/<name>` folder as a skill in Settings.
-- **Claude Code and other agents with skills:** copy the folders into `~/.claude/skills/` (or your agent's skills directory).
+One command, for Claude Code, Codex, Cursor, OpenCode and other agents that read skills (needs Node.js 22+):
+
+```bash
+npx skills@latest add AbdlrahmanSaberAbdo/business-skills
+```
+
+It asks which agents to install for, then copies the skills in. Useful flags:
+
+```bash
+npx skills@latest add AbdlrahmanSaberAbdo/business-skills -g               # all your projects, not just this one
+npx skills@latest add AbdlrahmanSaberAbdo/business-skills -a claude-code   # one agent only
+npx skills@latest add AbdlrahmanSaberAbdo/business-skills --list           # see what's inside first
+```
+
+Then type `/ask-guide` in your agent.
+
+**Claude (claude.ai / desktop):** zip each `skills/<name>` folder and upload it as a skill in Settings.
+
+**Manual:** copy the `skills/*` folders into `~/.claude/skills/` (or your agent's skills directory).
 
 Install the whole pack: the skills hand off to each other by name. `grill-plan`, `research-options` and `mockup` also work alone for one-off questions. The agent needs access to a doc it can edit, a spreadsheet it can edit, and, for setup work, a browser.
 

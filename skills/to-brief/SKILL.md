@@ -1,6 +1,6 @@
 ---
 name: to-brief
-description: Turn the decisions reached in a conversation into clean updates to the project's hub doc: the Brief table, Done so far and Open decisions. It doesn't interview; it records.
+description: Turn the decisions reached in a conversation into clean updates to the project's hub doc (the Brief table, Done so far and Open decisions). It doesn't interview; it records.
 ---
 
 # To brief
