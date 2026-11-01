@@ -1,6 +1,6 @@
 # business-skills
 
-Agent skills for running a small business project (a brand launch, an online store, a side venture) across many short AI chats instead of one endless one.
+Agent skills for running a small business project (a SaaS product, an online store, a service or local business, a side venture) across many short AI chats instead of one endless one.
 
 Adapted from [Matt Pocock's skills for coding agents](https://aihero.dev/skills-wayfinder) (`grill-me`, `to-spec`, `to-tickets`, `wayfinder` and friends) for non-code work. Where his skills use a repo and an issue tracker, these use a **hub doc** and a **task sheet**.
 
@@ -54,21 +54,19 @@ Before the chat ends, update Done so far and Open decisions (`/close-out`).
 ## Brief
 | Area | Decision |
 |---|---|
-| What we sell | [TBD] |
+| Type | [physical / digital / service] · [online / in person / both] |
+| Offer | [TBD] |
 | Customer | [TBD] |
-| Price range | [TBD] |
-| Market | [TBD] |
-| Sourcing | [TBD] |
+| Problem it solves | [TBD] |
 | Main promise | [TBD] |
+| Price and model | [TBD] |
+| Market | [TBD] |
+| How customers find you | [TBD] |
 | Name | [TBD] |
-| Feel | [TBD] |
-| Logo | [TBD] |
-| Palette | [TBD] |
-| Voice | [TBD] |
-| Payment | [TBD] |
-| Delivery | [TBD] |
-| Platform | [TBD] |
+| Feel and voice | [TBD] |
 | Budget | [TBD] |
+| "Launched" means | [TBD] |
+| *(type rows, see below)* | |
 
 ## Done so far
 | Item | Status |
@@ -86,6 +84,13 @@ Before the chat ends, update Done so far and Open decisions (`/close-out`).
 Workstream: [name]. Outcome: [what "done" looks like].
 ```
 ````
+
+Add the rows for your business type:
+
+- **Physical product:** sourcing, stock, sales channel, payment, delivery, returns
+- **Digital product (SaaS, app, course):** platform or stack, MVP scope, billing, onboarding, support, data and privacy
+- **Service:** who delivers and capacity, packages, booking, contracts, payment
+- **In person:** location or area, hours, permits
 
 **Task sheet** columns: `Task | Subtask | Status | Workstream | Blocked by | Notes`. Status is To do, Doing, Blocked or Done.
 
